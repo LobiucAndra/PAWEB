@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #dff5ff;
+  color: #5356ff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #378ce7;
+}
+
+img {
+  width: 50%;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+ul.hobby-uri {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.hobby-uri li {
+  background: url("trin.jpg") no-repeat left center;
+  background-size: 20px;
+  padding-left: 40px;
+  margin: 10px 0;
+  color: #67c6e3;
+  line-height: 40px;
+}
+
+a.contact-link {
+  display: inline-block;
+  margin-top: 20px;
+}
